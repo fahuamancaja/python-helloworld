@@ -1,0 +1,6 @@
+*.pyc
+/MANIFEST
+/build/
+/deb_dist/
+/dist/
+/helloworld.egg-info/
