@@ -13,7 +13,7 @@ def create_dataset(base_path='./repos'):
     - List[dict]: A list of dictionaries, each containing file details.
     """
     dataset = []
-    excluded_dirs = {'bin', 'obj', 'dist', 'node_modules'}  # Add more directories to exclude as needed
+    excluded_dirs = {'bin', 'obj', 'dist', 'node_modules', '.angular'}  # Add more directories to exclude as needed
 
     for root, dirs, files in os.walk(base_path, topdown=True):
         # Skip excluded directories
